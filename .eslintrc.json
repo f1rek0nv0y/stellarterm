@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "StellarSdk": true,
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "max-len": ["error", 120],
+    "react/require-default-props": 0,
+    "react/jsx-indent": 0,
+    "indent": ["error", 4],
+    "import/extensions": 0,
+    "new-cap": "warn",
+    "no-underscore-dangle": "off"
+  }
+}
