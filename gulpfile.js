@@ -228,6 +228,7 @@ gulp.task('copy-fav', () => gulp.src('./favicon*')
 
 gulp.task('production', () => {
     process.env.NODE_ENV = 'production';
+    process.env.CONTEXT = 'production';
     runSequence(
         'clean',
         'configEnv',
